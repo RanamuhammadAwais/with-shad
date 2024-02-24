@@ -3,7 +3,7 @@ import { Calendar } from "@/components/ui/calendar"
 import Salman from "@/components/example"
 import Product from "@/components/product"
 import Overview from "@/components/overview"
-import Promo from "@/components/promo"
+import Promoo from "@/components/promoo"
 
 
 
@@ -64,16 +64,16 @@ export default function Home() {
       <Calendar> My calnder </Calendar>
     </div> */}
 
-      <Promo/>
+      <Promoo/>
 
       <div className="">
-        <Salman/>
+        {/* <Salman/> */}
       </div>
         <div className="p-10">
-           <Overview/>
+           {/* <Overview/> */}
         </div>
 
-    <Product/>
+    {/* <Product/> */}
 
 
 
