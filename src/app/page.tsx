@@ -1,5 +1,9 @@
 import Image from "next/image";
 import { Calendar } from "@/components/ui/calendar"
+import Salman from "@/components/example"
+import Product from "@/components/product"
+import Overview from "@/components/overview"
+import Promo from "@/components/promo"
 
 
 
@@ -60,7 +64,16 @@ export default function Home() {
       <Calendar> My calnder </Calendar>
     </div> */}
 
- 
+      <Promo/>
+
+      <div className="">
+        <Salman/>
+      </div>
+        <div className="p-10">
+           <Overview/>
+        </div>
+
+    <Product/>
 
 
 
